@@ -1,0 +1,28 @@
+.guidelines {
+  &-title {
+    padding-top: 40px;
+    font-family: serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  &-subtitle {
+    @media screen and (max-width: 750px) {
+      padding-top: 40px;
+      font-family: serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: 0.2em;
+      text-align: center;
+    }
+  }
+}

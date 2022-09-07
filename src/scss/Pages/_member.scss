@@ -1,0 +1,59 @@
+.member {
+  &-detail-title {
+    color: #FFF;
+    font-family: serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    
+    &.en {
+      font-size: 26px;
+      letter-spacing: 0;
+    }
+    
+    &-en {
+      font-family: $austin_capittal;
+      font-size: 40px;
+      letter-spacing: 0.1em;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  
+  &-position {
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    height: 30px;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 10px;
+      padding-top: 0;
+      height: 20px;
+      transform: scale(0.75);
+      width: 200%;
+      margin-left: -50%;
+    }
+  }
+  
+  &-name {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 15px;
+    }
+  }
+}

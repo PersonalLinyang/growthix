@@ -1,0 +1,61 @@
+body {
+  font-size: 0;
+}
+
+header,main,footer {
+  font-size: 14px;
+}
+
+.common {
+  &-title {
+    position: relative;
+    padding-top: 40px;
+    font-family: serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    
+    &.en {
+      padding-top: 55px;
+      font-size: 40px;
+      letter-spacing: 0;
+      
+      @media screen and (max-width: 750px) {
+        padding-top: 30px;
+        font-size: 22px;
+      }
+    }
+    
+    &:before {
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 7px;
+      background: linear-gradient(to right, #3f85c6, #7e86c1 50%, #3f85c6);
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      
+      @media screen and (max-width: 750px) {
+        width: 60px;
+        height: 5px;
+      }
+    }
+    
+    &-en {
+      font-family: $austin_capittal;
+      letter-spacing: 0.1em;
+    }
+  }
+}
+
+.div-inline-block {
+  display: inline-block;
+}

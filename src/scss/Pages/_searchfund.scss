@@ -1,0 +1,111 @@
+.searchfund {
+  &-main {
+    &-title {
+      padding: 40px 0;
+      font-family: serif;
+      font-size: 34px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-align: center;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 22px;
+        padding: 20px 0;
+        width: 360px;
+        margin: 0 auto;
+        text-align: left;
+      }
+    }
+    
+    &-subtitle {
+      padding: 10px 0;
+      letter-spacing: 0.1em;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 15px;
+        padding: 5px 0;
+        text-align: center;
+      }
+    }
+  }
+  
+  &-title {
+    position: relative;
+    padding: 40px 0;
+    font-family: serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-align: center;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 24px;
+      padding: 20px 0;
+    }
+    
+    &.en {
+      padding-top: 55px;
+      font-size: 40px;
+      letter-spacing: 0;
+      
+      @media screen and (max-width: 750px) {
+        padding-top: 30px;
+        font-size: 22px;
+      }
+    }
+    
+    &:before {
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 7px;
+      background: linear-gradient(to right, #3f85c6, #7e86c1 50%, #3f85c6);
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      
+      @media screen and (max-width: 750px) {
+        width: 60px;
+        height: 5px;
+      }
+    }
+    
+    &-en {
+      font-family: $austin_capittal;
+      letter-spacing: 0.1em;
+    }
+  }
+  
+  &-subtitle {
+    position: relative;
+    padding: 20px 0;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 20px;
+      padding: 10px 0;
+      margin-bottom: 20px;
+    }
+    
+    &:before {
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(to right, #3f85c6, #7e86c1 50%, #3f85c6);
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      
+      @media screen and (max-width: 750px) {
+        width: 60px;
+        height: 2px;
+      }
+    }
+  }
+}

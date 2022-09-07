@@ -1,0 +1,132 @@
+.company {
+  &-block {
+    &-entitle {
+      font-family: serif;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-align: center;
+      margin-bottom: 10px;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 11px;
+        margin-bottom: 5px;
+      }
+      
+      &.en {
+        font-size: 22px;
+        
+        @media screen and (max-width: 750px) {
+          font-size: 13px;
+        }
+      }
+    }
+    
+    &-img {
+      img {
+        margin: 15px auto 12px;
+        
+        @media screen and (max-width: 750px) {
+          margin: 10px auto 8px;
+        }
+      }
+    }
+    
+    &-writetitle {
+      font-family: $homemadeapple;
+      font-size: 42px;
+      text-align: center;
+      margin-bottom: 20px;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+    }
+    
+    &-title {
+      font-family: serif;
+      font-size: 28px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 20px;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 17px;
+        margin-bottom: 10px;
+      }
+      
+      &.en {
+        font-size: 40px;
+        letter-spacing: 0;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        
+        @media screen and (max-width: 750px) {
+          font-size: 25px;
+          margin-top: 15px;
+          margin-bottom: 6px;
+        }
+      }
+    }
+    
+    &-subtitle {
+      font-family: serif;
+      font-size: 16px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      font-weight: 700;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 10px;
+      }
+      
+      &.en {
+        font-size: 22px;
+        letter-spacing: 0;
+        
+        @media screen and (max-width: 750px) {
+          font-size: 14px;
+          margin-top: 4px;
+        }
+      }
+    }
+    
+    &-message {
+      p {
+        margin: 60px auto !important;
+        
+        @media screen and (max-width: 750px) {
+          margin: 30px auto !important;
+        }
+      }
+    }
+  }
+  
+  &-h3 {
+    text-align: center;
+    font-family: serif;
+    font-size: 38px;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 26px;
+    }
+    
+    &.en {
+      font-family: serif;
+      font-size: 36px;
+      letter-spacing: 0;
+      margin-bottom: 0;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 22px;
+        line-height: 22px;
+        width: 200px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

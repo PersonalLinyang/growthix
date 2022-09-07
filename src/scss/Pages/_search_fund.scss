@@ -1,0 +1,71 @@
+.page.search-fund .search-fund {
+  &-title {
+    font-family: serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-align: center;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 22px;
+    }
+    
+    &.en {
+      font-size: 40px;
+      letter-spacing: 0;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 22px;
+      }
+    }
+  }
+  
+  &-subtitle {
+    font-family: serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    &.en {
+      font-size: 19px;
+      letter-spacing: 0;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 16px;
+      }
+    }
+  }
+  
+  &-bluetitle {
+    font-family: "Noto Sans CJK JP";
+    color: #FFF;
+    background: linear-gradient(to right, #3f85c6, #7e86c1 50%, #3f85c6);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 15px 0;
+    
+    @media screen and (max-width: 750px) {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    
+    &.en {
+      font-size: 19px;
+      letter-spacing: 0;
+      
+      @media screen and (max-width: 750px) {
+        font-size: 16px;
+      }
+    }
+  }
+}
